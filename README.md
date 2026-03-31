@@ -1,2 +1,2 @@
-# SQL-Learning-
+# SQL-Learning
 Learning SQL for business analysis....
