@@ -113,8 +113,8 @@ Give it a ⭐ and follow my journey!
 
 ## 📬 Connect With Me
 
-* GitHub: (your profile link)
-* LinkedIn: (your profile link)
+* GitHub: (https://github.com/prasannabarge)
+* LinkedIn: (https://www.linkedin.com/in/prasanna-barge--/)
 
 ---
 
