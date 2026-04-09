@@ -36,4 +36,22 @@ CREATE TABLE marks(
      );
   SELECT * FROM student1;   
 INSERT INTO student1( Roll_No , name)VALUES( 307, "prasanna"),( 369, "ritesh");
-     
+
+###############################################################################
+-- next lesson continue from this
+
+use college;
+
+CREATE TABLE b1(
+  id INT primary key,
+  name varchar(50),
+  age int not null);
+  
+
+INSERT INTO b1 values(1 , "prasanna" , 21);
+
+
+SELECT * from b1; 
+
+
+

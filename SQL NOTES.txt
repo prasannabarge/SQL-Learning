@@ -1,2 +1,29 @@
-Primary key:-  is always NOT NULL , UNIQUE....
+Primary key:-  is always NOT NULL , UNIQUE....in table there is only one primary key not more than this.....remember this...
+we can make combinations of two columns also the primary key.....
+like combination need to be unique.....not whole columnn
+
+id    name 
+
+101  Prasanna  ---that two names are need to be unique
+101  shyam
+102  Prasanna
+
+
+
 NOT NULL :-  Means the the box never remains to empty.....it should also have the value..
+Foreign key : it does not need to be unique.....and its a primary key of the another table 
+DEFAULT :  we can use default constraints when we want to use the default value like salary = 2500 like that it using the default value...
+
+
+SELECT name , marks from student ; 
+SELECT * FROM student;
+SELECT DISTINCT grade FROM student; --- DISTINCET keyword are used to find the unique values from the selected table.....
+
+-- now we are learning the where clause so we apply the condition according to it
+
+SELECT * FROM student WHERE marks > 80;
+
+
+# we are applying now multiple condition using the AND 
+
+SELECT * FROM student WHERE marks > 80 AND rollno < 5 ;
