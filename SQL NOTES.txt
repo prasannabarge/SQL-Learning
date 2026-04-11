@@ -27,3 +27,7 @@ SELECT * FROM student WHERE marks > 80;
 # we are applying now multiple condition using the AND 
 
 SELECT * FROM student WHERE marks > 80 AND rollno < 5 ;
+
+
+SELECT DISTINCT column_name
+FROM table_name; ---- this is syntax of the DISTINCT keyword is use to find the UNIQUE values from the table;

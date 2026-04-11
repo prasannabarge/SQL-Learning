@@ -46,3 +46,9 @@ SELECT * FROM student WHERE city IN( "Mumbai" , "Pune"); # suppose we want to in
 SELECT * FROM student WHERE city NOT IN ("Pune"); #not check the condition where opposite to the values like it checks the City Except Pune thats why we are using NOT Operator
 
 SELECT * FROM student WHERE marks > 80 LIMIT 3 ; #LIMIT clause used to the add limit like it only selects the 3 recors from marks greater than 80
+
+SELECT * FROM student ORDER BY marks ASC; -- here we are arraning the order by ascending order like 1 to 10
+
+SELECT * FROM student ORDER BY city DESC;
+
+use ycis;
